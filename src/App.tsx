@@ -47,7 +47,7 @@ function getPreparedGoods(
   }
 
   if (isReversed) {
-    preparedGoods.reverse();
+    return [...preparedGoods].reverse();
   }
 
   return preparedGoods;
